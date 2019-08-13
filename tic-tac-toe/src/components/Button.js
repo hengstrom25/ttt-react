@@ -6,7 +6,7 @@ const Button = () => {
 	return (
   		<div>
   			<button className="button">
-  				<p className="button-font">NEW GAME</p>
+  				<p className="button_font">NEW GAME</p>
   			</button>
    		</div>
   );
