@@ -5,8 +5,8 @@ const Button = () => {
 
 	return (
   		<div>
-  			<button className="button">
-  				<p className="button_font">NEW GAME</p>
+  			<button className="button button_font">
+				NEW GAME
   			</button>
    		</div>
   );

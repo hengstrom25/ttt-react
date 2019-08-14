@@ -17,7 +17,7 @@ body {
 }
 
 .board {
-	color: #eaeaea;
+	background-color: #ffffff;
 	border-width: 1px;
 	border-color: #c4c4c4;
 	height: 336px;
@@ -25,12 +25,19 @@ body {
 }
 
 .square {
-	color: #eaeaea;
+	background-color: #eaeaea;
 	border-width: 1px;
 	border-color: #c4c4c4;
 	height: 100px;
 	width: 100px;
 }	
+
+.pieces {
+	color: #2d4558;
+	line-width: 3px;
+	text-height: 42px;
+	text-width: 42px;
+}
 
 .button_font {
 	font-family: 'Nunito Sans', sans-serif;
@@ -41,7 +48,7 @@ body {
 }
 
 .button {
-	background-color: #2D4558;
+	background-color: #2d4558;
 	radius: 2px;
 	height: 60px;
 	width: 200px;
