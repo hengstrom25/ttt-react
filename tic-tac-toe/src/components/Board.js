@@ -14,7 +14,7 @@ class Board extends Component {
 	}
 	
 	handleClick(i) {
-		let squares = this.state.squares.slice();
+		const squares = this.state.squares.slice();
 		squares[i] = this.state.playerX ? 'X' : 'O';
 		this.setState({
 			squares: squares,
@@ -22,7 +22,6 @@ class Board extends Component {
 		});
 	}
 			
-		
 	render() {	
 		return (
   			<div className="board">
@@ -60,4 +59,6 @@ class Board extends Component {
 			
 }
 
+
 export default Board;
+
