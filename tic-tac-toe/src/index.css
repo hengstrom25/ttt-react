@@ -34,7 +34,7 @@ body {
 
 .pieces {
 	color: #2d4558;
-	line-width: 3px;
+	font-weight: 3px;
 	text-height: 42px;
 	text-width: 42px;
 }

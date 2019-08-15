@@ -21,6 +21,13 @@ class Board extends Component {
 			playerX: !this.state.playerX
 		});
 	}
+	
+	resetGame(){
+		this.setState({
+			squares: [" "," "," "," "," "," "," "," "," "],
+			playerX: true
+		})
+	}
 			
 	render() {	
 		return (

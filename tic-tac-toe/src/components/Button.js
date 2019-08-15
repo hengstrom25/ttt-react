@@ -1,11 +1,11 @@
 import React from 'react';
 import '../index.css';
 
-const Button = () => {
+const Button = (props) => {
 
 	return (
   		<div>
-  			<button className="button button_font">
+  			<button className="button button_font" onClick={props.onGameReset}>
 				NEW GAME
   			</button>
    		</div>

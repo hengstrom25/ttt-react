@@ -1,16 +1,29 @@
-import React from 'react';
+import React, {Component } from 'react';
 import Title from '../components/Title'
 import Board from '../components/Board'
 import Button from '../components/Button'
 
-const Game = () => (
+class Game extends Component {
 
-	<div>
-		<Title />
-		<Board />
-		<Button />
-	</div>
-			
-);
+	constructor(props) {
+		super(props)
+		this.handleReset = this.handleReset.bind(this);
+	}
+	
+	handleReset() {
+		this.refs.board.resetGame();
+	}
+	
+	render() {
+		return(
+			<div>
+				<Title />
+				<Board ref="board"/>
+				<Button onGameReset={this.handleReset}/>
+			</div>
+		)	
+	};
+
+}
 
 export default Game
