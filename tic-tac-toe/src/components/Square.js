@@ -7,8 +7,8 @@ class Square extends Component {
 
 		return (
   			<div>
-  				<button className="square pieces" onClick={() => this.props.onClick()}>
-  					{this.props.value}
+  				<button className={"square" + (this.props.winning? ' winning' : '')} onClick={() => this.props.onClick()}>
+  					<span className="pieces">{this.props.value}</span>
   				</button>
    			</div>
    		)

@@ -23,22 +23,24 @@ body {
 	border-width: 1px;
 	border-color: #c4c4c4;
 	border-style: solid;
-	padding: 15px;
-	height: 336px;
-	width: 336px;
+	padding: 14px;
 }
 
 .square {
 	background-color: #eaeaea;
 	height: 100px;
 	width: 100px;
+	margin: 1px;
 }	
+
+.square.winning {
+	background-color: #FFFACD;
+}
 
 .pieces {
 	color: #2d4558;
-	font-weight: 3px;
-	text-height: 42px;
-	text-width: 42px;
+	font-weight: 300;
+	font-size: 42px;
 }
 
 .button_font {
@@ -51,9 +53,12 @@ body {
 
 .button {
 	background-color: #2d4558;
-	radius: 2px;
-	height: 60px;
-	width: 200px;
+	border-color: #2d4558;
+	border-style: solid;
+	border-radius: 2px;
+	border-width: 2px;
+	height: 56px;
+	width: 196px;
 	margin-top: 32px
 }
 
